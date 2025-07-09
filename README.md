@@ -15,8 +15,8 @@
 The application is configured to run on a schedule with the following entries in crontab:
 
 ```bash
-11 11 * * * /usr/bin/python3 /full/path/to/eleven_eleven.py
-11 23 * * * /usr/bin/python3 /full/path/to/eleven_eleven.py
+11 11 * * * /usr/bin/python3 /full/path/to/main.py
+11 23 * * * /usr/bin/python3 /full/path/to/main.py
 ```
 
 Ensure that your discord webhook URL is stored in .env following the setup in .env.example
